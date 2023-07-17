@@ -20,11 +20,11 @@ cd custom_portfolio_cms/back_end_node/node-CMS/portfolio-back-end
 3. Install the dependencies:
 yarn or if you are using NPM delete yarn.lock file and npm install 
 4. Create a `.env` file in the `back_end_node` folder and add the following environment variables:
-MONGO_URL=your-mongo-db-atlas-link
-JWT_STRING=custom-string-for-JWT-token-authentication-for-admin-user
-AWS_BUCKET_NAME=s3-bucket-name
-AWS_ACCESS_KEY=aws-access-key
-AWS_SECRET_KEY=aws-secret-key
+- MONGO_URL=your-mongo-db-atlas-link
+- JWT_STRING=custom-string-for-JWT-token-authentication-for-admin-user
+- AWS_BUCKET_NAME=s3-bucket-name
+- AWS_ACCESS_KEY=aws-access-key
+- AWS_SECRET_KEY=aws-secret-key
 5. Start the server:
 yarn start or npm start port is set `http://localhost:3000`
 6. Navigate to the `portfolio-pannel` folder:
