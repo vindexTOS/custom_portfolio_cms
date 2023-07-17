@@ -19,7 +19,7 @@ cd custom_portfolio_cms/back_end_node/node-CMS/portfolio-back-end
 
 3. Install the dependencies:
 yarn or if you are using NPM delete yarn.lock file and npm install 
-4. Create a `.env` file in the `back_end_node` folder and add the following environment variables:
+4. Create a `.env` file in the `portfolio-back-end` folder and add the following environment variables:
 - MONGO_URL=your-mongo-db-atlas-link
 - JWT_STRING=custom-string-for-JWT-token-authentication-for-admin-user
 - AWS_BUCKET_NAME=s3-bucket-name
